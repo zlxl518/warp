@@ -2,36 +2,34 @@
 using namespace std;
 
 int main() {
-	
-	/*for (int x = 0; x < 12; ++x) { //원초적 방법
-		cout << "□";
-	}
-	cout << endl;
-	for (int a = 0; a < 22; ++a) {
-		cout << "□";
-		for (int b = 0; b < 10; ++b)
-		{
-			cout << "  ";
+	int pan[12][24] = { 0 };
+	int inputx, inputy;
+	for (int i = 0; i < 24; ++i) {
+		for (int j = 0; j < 12; ++j) {
+			if ((i == 0) || (i == 23)) {
+				pan[j][i] == 1;
+			}
+			else if ((j == 0) || (j == 11)) {
+				pan[j][i] = 1;
+			}
+			else pan[j][i] = 0;
 		}
-		cout << "□"<<endl;
 	}
-	for (int x = 0; x < 12; ++x) {
-		cout << "□";
-	}*/
-
-	for (int jul = 0; jul < 24; ++jul) {  //if문
-		if ((jul == 0) || (jul == 23)) {
+	while (1) {
+		cin >> inputx >> inputy;
+		pan[inputx][inputy] = 1;
+		for (int y = 0; y < 24; ++y) {
 			for (int x = 0; x < 12; ++x) {
-				cout << "□";
+				if (pan[x][y] == 1)
+				{
+					cout << "□";
+				}
+				else cout << "  ";
+				//cout << endl;  - 실수
 			}
 			cout << endl;
 		}
-		else {
-			for (int x = 0; x < 12; ++x) {
-				if ((x == 0) || (x == 11))cout << "□";
-				else cout << "  ";
-			}cout << endl;
-		}
 	}
+	
 	return 0;
 }
