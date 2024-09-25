@@ -7,7 +7,7 @@ int main() {
 	for (int i = 0; i < 24; ++i) {
 		for (int j = 0; j < 12; ++j) {
 			if ((i == 0) || (i == 23)) {
-				pan[j][i] == 1;
+				pan[j][i] = 1;  //실수 (대입 연산자를 써야되는데 비교 연산자 사용)
 			}
 			else if ((j == 0) || (j == 11)) {
 				pan[j][i] = 1;
