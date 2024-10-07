@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\warp\\warp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B30BB94D-7E45-4465-8EE3-7460A194A94B}|warp1.vcxproj|C:\\Users\\user\\Desktop\\warp\\warp1\\\uC18C\uC2A4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B30BB94D-7E45-4465-8EE3-7460A194A94B}|warp1.vcxproj|solutionrelative:\uC18C\uC2A4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B30BB94D-7E45-4465-8EE3-7460A194A94B}|warp1.vcxproj|C:\\Users\\user\\Desktop\\warp\\warp1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B30BB94D-7E45-4465-8EE3-7460A194A94B}|warp1.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30BB94D-7E45-4465-8EE3-7460A194A94B}|warp1.vcxproj|C:\\Users\\user\\Desktop\\warp\\warp1\\board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B30BB94D-7E45-4465-8EE3-7460A194A94B}|warp1.vcxproj|solutionrelative:board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30BB94D-7E45-4465-8EE3-7460A194A94B}|warp1.vcxproj|C:\\Users\\user\\Desktop\\warp\\warp1\\board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B30BB94D-7E45-4465-8EE3-7460A194A94B}|warp1.vcxproj|solutionrelative:board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +30,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Board.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\warp\\warp1\\Board.cpp",
+              "RelativeDocumentMoniker": "Board.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\warp\\warp1\\Board.cpp*",
+              "RelativeToolTip": "Board.cpp*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-02T05:43:11.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Board.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\warp\\warp1\\Board.h",
+              "RelativeDocumentMoniker": "Board.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\warp\\warp1\\Board.h",
+              "RelativeToolTip": "Board.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-02T05:42:11.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "\uC18C\uC2A4.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\warp\\warp1\\\uC18C\uC2A4.cpp",
-              "RelativeDocumentMoniker": "\uC18C\uC2A4.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\warp\\warp1\\\uC18C\uC2A4.cpp",
-              "RelativeToolTip": "\uC18C\uC2A4.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAKAAAA",
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\warp\\warp1\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\warp\\warp1\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-25T04:44:44.901Z",
               "EditorCaption": ""
