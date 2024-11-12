@@ -1,4 +1,5 @@
 ﻿  Board.cpp
+C:\Users\user\Desktop\warp\warp1\Board.cpp(58,3): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
   main.cpp
+C:\Users\user\Desktop\warp\warp1\main.cpp(30,16): error C3861: 'Get_input': 식별자를 찾을 수 없습니다.
   코드를 생성하고 있습니다...
-  warp1.vcxproj -> C:\Users\user\Desktop\warp\warp1\x64\Debug\warp1.exe
