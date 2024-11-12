@@ -3,6 +3,7 @@
 #include <windows.h>
 #include <conio.h>
 
+
 using namespace std;
 
 int main() {
@@ -27,8 +28,8 @@ int main() {
 	Board1.Board_Setup(board);
 	while (1) {
 		Board1.Board_Print(board);
-		char input = Get_input();
-
+		char input = Board1.Get_input();
+		
 		Board1.Block_Set(board);
 		Sleep(1000);
 		Board1.Board_Drop(board);

@@ -51,17 +51,18 @@ void Block_Spwan(int(*board)[24]) {
 		}
 	}
 }
-void Board_Drop(int(*board)[24]) {
-	for (int i = 1; i < 11; ++i) {
-		for (int j = 1; i < 24; ++j) {
-			board[i][j]
+
+
+char Get_input() {
+	int ch = '\0';
+	if (_kbhit()) {
+		ch = _getch();
+		if (ch == 27) {
+			ch = _getch();
 		}
 	}
-
-}
-char Get_input() {
-	if (_kbhit()) {
-		return _getch();
+	else {
+		return ch;
 	}
 	return '\0';
 }
