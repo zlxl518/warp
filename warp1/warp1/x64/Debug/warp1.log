@@ -1,3 +1,4 @@
-﻿main.obj : error LNK2019: "public: void __cdecl Board::Board_Drop(int (*)[24])" (?Board_Drop@Board@@QEAAXPEAY0BI@H@Z)main 함수에서 참조되는 확인할 수 없는 외부 기호
-main.obj : error LNK2019: "public: char __cdecl Board::Get_input(void)" (?Get_input@Board@@QEAADXZ)main 함수에서 참조되는 확인할 수 없는 외부 기호
-C:\Users\user\Desktop\warp\warp1\x64\Debug\warp1.exe : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.
+﻿  Board.cpp
+C:\Users\user\Desktop\warp\warp1\Board.cpp(46,8): error C2065: 'block': 선언되지 않은 식별자입니다.
+C:\Users\user\Desktop\warp\warp1\Board.cpp(48,6): error C2065: 'block': 선언되지 않은 식별자입니다.
+C:\Users\user\Desktop\warp\warp1\Board.cpp(48,32): error C2065: 'block': 선언되지 않은 식별자입니다.

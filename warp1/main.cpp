@@ -2,8 +2,8 @@
 #include <random>
 #include <windows.h>
 #include <conio.h>
-
-
+#include "common.h"
+#include "Block.h"
 using namespace std;
 
 int main() {
@@ -23,19 +23,29 @@ int main() {
 	Block.Move[x][y]에서, board[x][y+1] 이면 Block.Move 를 board로.
 	
 	*/
-	Board Board1;
-	int board[12][24] = { 0 };
-	Board1.Board_Setup(board);
+	Board board1;
+	Block block;
+	board1.Board_Setup();
 	while (1) {
-		Board1.Board_Print(board);
-		char input = Board1.Get_input();
-		
-		Board1.Block_Set(board);
+		board1.Board_Print();
+		char input = board1.Get_input();
+
+		board1.Block_Set(block);
 		Sleep(1000);
-		Board1.Board_Drop(board);
-		
-	
-	
+		/*if (input == 72) { // 위
+		}
+		if (input == 75) { // 왼쪽
+		}
+		if (input == 77) { // 오른쪽
+		}
+		if (input == 80) { // 아래
+		}
+		//else   // 뭐 들어가야할까요
+		*/
+		board1.Block_Drop();
+
+
+
 	}
 	return 0;
 }
