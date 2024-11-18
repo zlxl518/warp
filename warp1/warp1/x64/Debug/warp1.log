@@ -1,4 +1,2 @@
 ﻿  Board.cpp
-C:\Users\user\Desktop\warp\warp1\Board.cpp(46,8): error C2065: 'block': 선언되지 않은 식별자입니다.
-C:\Users\user\Desktop\warp\warp1\Board.cpp(48,6): error C2065: 'block': 선언되지 않은 식별자입니다.
-C:\Users\user\Desktop\warp\warp1\Board.cpp(48,32): error C2065: 'block': 선언되지 않은 식별자입니다.
+  warp1.vcxproj -> C:\Users\user\Desktop\warp\warp1\x64\Debug\warp1.exe

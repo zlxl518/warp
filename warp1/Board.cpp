@@ -40,12 +40,20 @@ void Board::Block_Set(Block block) { //테스트용으로 I 블록 넣어보기
 }
 
 
-void Board::Block_Drop() {
+void Board::Block_Drop(Block block) {
 	for (int i = 0; i < 4; ++i) {
 		for (int j = 0; j < 4; ++j) { 
 			if (block.Block_I[i][j] == 1) {  
-				if (board[i][j + 1] != 0) {  
-					block.Block_I[i][j + 1] = block.Block_I[i][j]; 
+				int before_x = i;
+				int before_y = j;
+				if (board[before_x][before_y + 1] != 1) { 
+				
+					block.Block_I[before_x][before_y + 1] = block.Block_I[before_x][before_y];
+					block.Block_I[before_x][before_y] = 0;
+				}
+				else {
+					board[before_x][before_y] = block.Block_I[before_x][before_y];
+					block.Block_I[before_x][before_y] = 0;
 				}
 			}
 		}

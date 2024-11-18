@@ -31,7 +31,7 @@ int main() {
 		char input = board1.Get_input();
 
 		board1.Block_Set(block);
-		Sleep(1000);
+		Sleep(100);
 		/*if (input == 72) { // 위
 		}
 		if (input == 75) { // 왼쪽
@@ -42,7 +42,7 @@ int main() {
 		}
 		//else   // 뭐 들어가야할까요
 		*/
-		board1.Block_Drop();
+		board1.Block_Drop(block);
 
 
 
